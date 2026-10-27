@@ -1,0 +1,23 @@
+2026-10-27 12:39:31,316 | INFO    | consumer | consumer-2 start | group=events_group
+2026-10-27 12:39:33,709 | INFO    | consumer | ASSIGNED partitions=[2]
+2026-10-27 12:49:57,085 | INFO    | consumer | partition=2 offset=0 key=user_4 action=view | total user_4=1
+2026-10-27 12:50:27,346 | INFO    | consumer | partition=2 offset=1 key=user_4 action=add_to_cart | total user_4=2
+2026-10-27 12:51:43,073 | INFO    | consumer | partition=2 offset=2 key=user_4 action=add_to_cart | total user_4=3
+2026-10-27 12:51:53,169 | INFO    | consumer | partition=2 offset=3 key=user_4 action=click | total user_4=4
+2026-10-27 12:51:58,207 | INFO    | consumer | partition=2 offset=4 key=user_4 action=add_to_cart | total user_4=5
+2026-10-27 12:53:03,830 | INFO    | consumer | partition=2 offset=5 key=user_4 action=purchase | total user_4=6
+2026-10-27 12:53:34,135 | INFO    | consumer | partition=2 offset=6 key=user_4 action=purchase | total user_4=7
+2026-10-27 12:53:49,329 | INFO    | consumer | partition=2 offset=7 key=user_4 action=purchase | total user_4=8
+2026-10-27 12:54:44,825 | INFO    | consumer | partition=2 offset=8 key=user_4 action=click | total user_4=9
+2026-10-27 12:55:40,324 | INFO    | consumer | partition=2 offset=9 key=user_4 action=purchase | total user_4=10
+2026-10-27 12:55:55,484 | INFO    | consumer | partition=2 offset=10 key=user_4 action=add_to_cart | total user_4=11
+2026-10-27 12:56:00,557 | INFO    | consumer | partition=2 offset=11 key=user_4 action=purchase | total user_4=12
+2026-10-27 12:56:10,645 | INFO    | consumer | partition=2 offset=12 key=user_4 action=view | total user_4=13
+2026-10-27 12:56:30,811 | INFO    | consumer | partition=2 offset=13 key=user_4 action=view | total user_4=14
+2026-10-27 12:57:51,587 | INFO    | consumer | partition=2 offset=14 key=user_4 action=view | total user_4=15
+2026-10-27 12:58:11,771 | INFO    | consumer | partition=2 offset=15 key=user_4 action=purchase | total user_4=16
+2026-10-27 12:58:16,810 | INFO    | consumer | partition=2 offset=16 key=user_4 action=click | total user_4=17
+2026-10-27 12:58:42,049 | INFO    | consumer | partition=2 offset=17 key=user_4 action=click | total user_4=18
+2026-10-27 12:59:08,932 | INFO    | consumer | stop diminta
+2026-10-27 12:59:08,932 | INFO    | consumer | REVOKED  partitions=[2]
+2026-10-27 12:59:08,965 | INFO    | consumer | consumer-2 ringkasan event per user: {'user_4': 18}

@@ -1,0 +1,20 @@
+
+== Event per consumer per partition
+   ('consumer-1', 0, 54)
+   ('consumer-1', 1, 55)
+   ('consumer-1', 2, 4)
+   ('consumer-2', 2, 18)
+
+== Key -> partition (harus 1 key = 1 partition)
+   ('user_1', 0, 29)
+   ('user_2', 1, 27)
+   ('user_3', 0, 25)
+   ('user_4', 2, 22)
+   ('user_5', 1, 28)
+
+== Agregasi per user
+   ('user_1', 29, 8662.78)
+   ('user_2', 27, 7510.09)
+   ('user_3', 25, 6748.4)
+   ('user_4', 22, 7018.37)
+   ('user_5', 28, 6747.86)
